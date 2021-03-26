@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Survey</title>
+</head>
+
+<body>
+
+    <header>
+        <h1 id="title">Survery Form Page</h1>
+        <p id="description">A minimalist form</p>
+    </header>
+
+    <main>
+        <form action="#" id="survey-form">
+            <div class="input-fields">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" required>
+
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label for="number" id="number-label">Age (optional)</label>
+                <input type="number" id="number" placeholder="Enter your age" min="2" max="3">
+
+
+                <label for="dropdown">What do you do?</label>
+                <select id="dropdown">
+                    <option value="select one" selected disabled>Select one</option>
+                    <option value="student">Student</option>
+                    <option value="full time job">Full time job</option>
+                    <option value="full time learner">Full time learner</option>
+                    <option value="prefer not to say">Prefer not to say</option>
+                    <option value="other">Other</option>
+                </select>
+
+
+                <label for=radio>Would you recommend freeCodeCamp to a friend?</label>
+                <div id="radio">
+                    <label for="first-op"><input id="first-op" type="radio" name="radio"
+                            value="definitely">Definitely</label>
+                    <label for="second-op"><input id="second-op" type="radio" name="radio" value="maybe">Maybe</label>
+                    <label for="third-op"><input id="third-op" type="radio" name="radio" value="not sure">Not
+                        sure</label>
+                </div>
+
+                <label for>Would you recommend freeCodeCamp to a friend?</label for>
+                <div id="checkbox">
+                    <label for="first-check"><input id="first-check" type="checkbox" name="checkbox"
+                            value="definitely">Definitely</label>
+                    <label for="second-check"><input id="second-check" type="checkbox" name="checkbox"
+                            value="maybe">Maybe</label>
+                    <label for="third-check"><input id="third-check" type="checkbox" name="checkbox" value="not sure">Not
+                        sure</label>
+                </div>
+
+                <label for="text-area">Do you have any suggestion?</label>
+                <textarea id="text-area" cols="30" rows="10" placeholder="Enter your comment here..."></textarea>
+
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+
+</html>

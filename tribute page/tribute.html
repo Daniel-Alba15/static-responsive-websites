@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turing's tribute page</title>
+    <script src="https://kit.fontawesome.com/0049645dbc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tribute.css">
+</head>
+
+<body>
+    <div id="main">
+        <header id="title">
+            <h1>Alan Turing</h1>
+            <h2>The man who changed the world!</h2>
+        </header>
+
+        <div class="img-container">
+            <div id="img-div">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Alan_Turing_Aged_16.jpg/220px-Alan_Turing_Aged_16.jpg"
+                    alt="Alan Turing 16 years old" id="image">
+
+                <figcaption id="img-caption">Alan Mathison Turing (23 June 1912 – 7 June 1954) was an English
+                    mathematician,
+                    computer
+                    scientist, logician, cryptanalyst, philosopher, and theoretical biologist.</figcaption>
+            </div>
+        </div>
+
+        <div id="tribute-info">
+
+            <h1>Some information about him:</h1>
+
+            <p>Turing imagined a hypothetical machine, (now called a 'Turing machine' that would read a tape of symbols,
+                one at a time, then either rewrite or erase the symbol, before then shifting the tape to the left or
+                right. In fact, originally Turing describes a person slavishly performing these operations. He called
+                this person the 'computer'. Some Turing machines would run forever, some would halt quite quickly, and
+                for others it depended on the input. Turing asked if some method existed that always allowed us to
+                determine whether a computer program and input would eventually halt, or run forever. He proved that a
+                general algorithm to solve this problem, for all possible program and input pairs, cannot exist - making
+                it an example of an undecidable problem. An astounding example that disproved Hilbert's question on
+                decidability. As it happens, Turing had been beaten to the punch. Unknown to him, the Princeton
+                mathematician Alonzo Church had independently described an equivalent undecidable problem earlier in the
+                year. Yet Turing's halting problem is regarded as the more intuitive and easier to understand.
+                Subsequently, Alan went on to Princeton to study under Church where he gained his PhD. It was then,
+                after returning to Cambridge, that Turing started working part time for the Government Code and Cypher
+                School - the UK's code breakers. For many years, even before the Second World War, the German military
+                had been using a cipher machine to encrypt their secret message, a machine called Enigma. The Enigma
+                machine was about the size of a typewriter, except instead of having a carriage and paper like a normal
+                typewriter it had a second set of letters that lit up; this was called the lampboard. Typing a message
+                on the keyboard resulted in letters lighting up on the lampboard, so if you pressed 'A' on the keyboard,
+                the letter 'H' might then light up on the lampboard - this was your code! The Enigma Machine was
+                essentially a simple circuit, connecting a battery to a bulb. Pressing a key on the keyboard would
+                complete a circuit, and illuminate a letter on the lampboard. The standard Enigma Machine had over 150
+                million million million daily settings, but this is not why Enigma was so hard to break. Inside, Enigma
+                contained three moving parts, called rotors. These rotors would turn after pressing a key, making the
+                wires of the circuit rotate, thus changing the circuit completely. So if you now pressed 'A' for a
+                second time it may not be the same letter as before. Double letters, for example, may not become double
+                letters in the code. It was these rotors that made Enigma so difficult to break. A day after the UK
+                declared war with Germany, Turing reported to Bletchley Park for work on breaking the German cipher.
+                Turing's contribution to the effort at Bletchley Park was indispensible. Not only did he make the first
+                breakthroughs with the Naval Enigma code, allowing Britain's food and supplies to be shipped across the
+                Atlantic, but, along with Gordon Welchman, designed a machine to break Enigma. This code breaking
+                machine was called the Bombe, a name chosen to honour the earlier Polish code breaking machine called
+                Bomba. The Bombe worked using the mathematical principle of contradiction. Given an Enigma code, the
+                code breakers would try and guess a short phrase, or 'crib', that might appear in the message. They
+                would input this guess into the Bombe and, if this input did not result in a valid Enigma code, it would
+                be rejected. However, if left to continue, all other deductions made by the Bombe Machine were then
+                equally invalid, and so could all be rejected at once as fruit of the poison tree. On a good day, the
+                Bombe machine could find the Enigma setting in 15 minutes. In 1945 Turing received an OBE for his work
+                at Bletchley Park, even though the work remained top secret for another 30 years.</p>
+        </div>
+
+        <footer>
+            <p>For more information about Alan Turing visite his <a id="tribute-link"
+                    href="https://en.wikipedia.org/wiki/Alan_Turing" target="_blank">Wikipedia page.</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

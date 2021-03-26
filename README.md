@@ -4,5 +4,6 @@ This is a collection of static responsive websites made in HTML and pure CSS as 
 
 The live version of the websites can be acces here:
 
-```[Tribute page](https://codepen.io/DanielAlba15/full/mdRejVR)
-[Survery form](https://codepen.io/DanielAlba15/full/vYgLxBe)```
+- [Tribute page](https://codepen.io/DanielAlba15/full/mdRejVR)
+- [Survery form](https://codepen.io/DanielAlba15/full/vYgLxBe)
+

@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("fancy-pants.jpg");
+    overflow: scroll;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-bottom: 15px;
+}
+
+header>nav {
+    width: 100%;
+}
+
+#links>a {
+    color: blanchedalmond;
+}
+
+#img {
+    margin-top: 20px;
+    flex: 1 0 300px;
+}
+
+#header-img {
+    display: block;
+    margin: auto;
+    width: 60%;
+}
+
+#links {
+    font-size: 1.65em;
+    flex: 1 1 200px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#links>a {
+    padding: 0px 10px;
+    text-decoration: none;
+}
+
+#video-section>section {
+    margin-top: 180px;
+}
+
+#video-section {
+    padding: 30px;
+}
+
+#video {
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 300px;
+}
+
+#description-section {
+    padding: 30px;
+}
+
+#description-section p {
+    font-size: 1.5em;
+    text-shadow: 3px 3px 12px aquamarine;
+}
+
+#form {
+    width: 80%;
+    text-align: center;
+    margin: 10px auto 50px auto;
+    padding-bottom: 20px;
+    background-color: rgba(128, 128, 128, 0.1);
+    font-size: 2em;
+}
+
+#form>label {
+    display: block;
+    padding: 10px;
+}
+
+#email {
+    width: 50%;
+}
+
+#submit {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #B5B5B5;
+    border: none;
+    border-radius: 20%;
+}
+
+@media(min-width: 500px) {
+    #header-img {
+        width: 40%;
+    }
+    #links>a {
+        padding: 0px 50px;
+    }
+    #description-section {
+        padding: 50px;
+    }
+}
+
+@media(min-width: 900px) {
+    #video {
+        height: 600px;
+    }
+    #header-img {
+        width: 20%;
+    }
+    #description-section {
+        padding: 80px;
+    }
+    #email {
+        padding: 15px 0px;
+    }
+}
